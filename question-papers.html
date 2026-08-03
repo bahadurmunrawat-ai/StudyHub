@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Question Papers | Study Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 Study Hub
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="notes.html">Notes</a>
+            <a href="question-papers.html">Question Papers</a>
+            <a href="about.html">About</a>
+            <button id="theme-btn">🌙 Dark Mode</button>
+        </div>
+
+    </nav>
+
+    
+<!-- ==================================================
+     Hero Section Starts
+     This is the top section of the Question Papers page.
+=================================================== -->
+
+<section class="hero">
+
+    <!-- Main Page Heading -->
+    <h1>📝 Question Papers</h1>
+
+    <!-- Small Description -->
+    <p>
+        Select a semester or search for a subject
+        to access previous year question papers.
+    </p>
+
+    <!-- ==========================================
+         Search Box Starts
+         Users can search semester or subject here.
+    =========================================== -->
+
+    <div class="search-box">
+
+        <!-- User types here -->
+        <input
+            type="text"
+            id="paperSearch"
+            placeholder="Search semester or subject..."
+        >
+
+        <!-- Search Button -->
+        <button onclick="searchQuestionPapers()">
+            🔍 Search
+        </button>
+
+    </div>
+
+    <!-- Search Box Ends -->
+
+</section>
+
+<!-- Hero Section Ends -->
+
+
+
+<section class="categories">
+
+    <h2>📚 Previous Year Question Papers</h2>
+
+    <p class="section-subtitle">
+        Select your semester to access question papers.
+    </p>
+
+    <div class="cards">
+
+        <div class="card semester-card">
+            <div class="semester-number">01</div>
+            <h3>First Semester</h3>
+            <p>Computer Fundamentals, C Programming, Digital Logic</p>
+            
+            <a href="question-papers/semester1.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+        <div class="card semester-card">
+            <div class="semester-number">02</div>
+            <h3>Second Semester</h3>
+            <p>DSA, OOP, Mathematics II</p>
+            <a href="question-papers/semester2.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+        <div class="card semester-card">
+            <div class="semester-number">03</div>
+            <h3>Third Semester</h3>
+            <p>DBMS, Java, Computer Architecture</p>
+            <a href="question-papers/semester3.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+        <div class="card semester-card">
+            <div class="semester-number">04</div>
+            <h3>Fourth Semester</h3>
+            <p>Operating System, AI, Web Technology</p>
+            <a href="question-papers/semester4.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+        <div class="card semester-card">
+            <div class="semester-number">05</div>
+            <h3>Fifth Semester</h3>
+            <p>Python, Networking, System Analysis</p>
+            <a href="question-papers/semester5.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+        <div class="card semester-card">
+            <div class="semester-number">06</div>
+            <h3>Sixth Semester</h3>
+            <p>Cloud Computing, Mobile App Development</p>
+            <a href="question-papers/semester6.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+        <div class="card semester-card">
+            <div class="semester-number">07</div>
+            <h3>Seventh Semester</h3>
+            <p>Cyber Security, Project Management</p>
+            <a href="question-papers/semester7.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+        <div class="card semester-card">
+            <div class="semester-number">08</div>
+            <h3>Eighth Semester</h3>
+            <p>Project Work, Seminar, Electives</p>
+            <a href="question-papers/semester8.html">
+                <button>Open →</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Study Hub | BCA Notes & Question Papers</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

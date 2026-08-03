@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Hub | Notes & Question Papers</title>
+
+    <!-- Website Description for Search Engines -->
+    <meta name="description" content="Study Hub provides BCA notes, question papers, syllabus, and learning resources for students.">
+
+    <!-- Keywords -->
+     <meta name="description" content="Study Hub provides free BCA notes, semester-wise study materials, previous year question papers, programming tutorials, and exam preparation resources for IT students.">
+
+    <!-- Author -->
+    <meta name="author" content="Mun Bahadur Rawat">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 Study Hub
+        </div>
+        <button class="menu-btn" id="menu-btn">☰</button>
+          
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="notes.html">Notes</a>
+            <a href="#">Question Papers</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="profile.html">Profile</a>
+            <button id="theme-btn">🌙 Dark Mode</button>
+        </div>
+
+    </nav>
+
+<!-- Hero Section -->
+<section class="hero">
+
+    <h1>📚 BCA Study Hub</h1>
+
+    <p>
+        Free Notes, Question Papers, Important Questions,
+        and Study Resources for all 8 BCA Semesters.
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="notes.html">
+            <button>📚 Explore Notes</button>
+        </a>
+
+        <a href="question-papers.html">
+            <button>📝 Question Papers</button>
+        </a>
+
+    </div>
+    
+<div class="search-box">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search notes or question papers..."
+    >
+    <div id="suggestions" class="suggestions"></div>
+
+    <button onclick="searchWebsite()">
+    🔍 Search
+</button>
+</div>
+
+</section>
+
+    <!-- Categories -->
+    <section class="categories">
+
+    <h2>🚀 Quick Access</h2>
+
+    <p class="section-subtitle">
+        Choose a section to start learning.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">📚</div>
+
+            <h3>Notes</h3>
+
+            <p>
+                Semester-wise notes for all BCA subjects.
+            </p>
+
+            <a href="notes.html">
+                <button>Explore</button>
+            </a>
+
+        </div>
+
+        <div class="card">
+            <div class="icon">📝</div>
+
+            <h3>Question Papers</h3>
+
+            <p>
+                Previous year question papers.
+            </p>
+
+            <a href="question-papers.html">
+                <button>Explore</button>
+            </a>
+
+        </div>
+
+        <div class="card">
+            <div class="icon">⭐</div>
+
+            <h3>Important Questions</h3>
+
+            <p>
+                Important exam questions for quick revision.
+            </p>
+
+            <button>Coming Soon</button>
+
+        </div>
+
+        <div class="card">
+            <div class="icon">📥</div>
+
+            <h3>Downloads</h3>
+
+            <p>
+                Download notes and PDFs easily.
+            </p>
+
+            <button>Coming Soon</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Popular Subjects -->
+
+<section class="categories">
+
+    <h2>🔥 Popular Subjects</h2>
+
+    <p class="section-subtitle">
+        Most popular BCA subjects among students.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>C Programming</h3>
+            <p>Programming Technique Using C</p>
+            <a href="semesters/semester1.html">
+                <button>Open</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">☕</div>
+            <h3>Java</h3>
+            <p>Object-Oriented Programming</p>
+            <a href="semesters/semester2.html">
+                <button>Open</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🗄️</div>
+            <h3>DBMS</h3>
+            <p>Database Management System</p>
+            <a href="semesters/semester4.html">
+                <button>Open</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🐍</div>
+            <h3>Python</h3>
+            <p>Programming in Python</p>
+            <a href="semesters/semester5.html">
+                <button>Open</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="statistics">
+
+    <h2>📊 Study Hub in Numbers</h2>
+
+    <div class="stats-container">
+
+        <div class="stat-box">
+            <h3>8</h3>
+            <p>Semesters</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>60+</h3>
+            <p>Subjects</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>500+</h3>
+            <p>Study Notes</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>100+</h3>
+            <p>Question Papers</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="updates">
+
+    <h2>📢 Latest Updates</h2>
+
+    <div class="update-list">
+
+        <div class="update-item">
+            <span>🆕</span>
+            <p>Cyber Security notes have been added.</p>
+        </div>
+
+        <div class="update-item">
+            <span>📄</span>
+            <p>2025 BCA Question Papers are now available.</p>
+        </div>
+
+        <div class="update-item">
+            <span>⭐</span>
+            <p>Important Questions section is coming soon.</p>
+        </div>
+
+        <div class="update-item">
+            <span>🎉</span>
+            <p>Study Hub is updated regularly with new resources.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="categories">
+
+    <h2>⭐ Why Choose Study Hub?</h2>
+
+    <p class="section-subtitle">
+        Everything you need for BCA study in one place.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>Free Notes</h3>
+            <p>Access semester-wise notes without any cost.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Easy Navigation</h3>
+            <p>Find subjects, notes, and papers in just a few clicks.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📱</div>
+            <h3>Mobile Friendly</h3>
+            <p>Study anytime on your phone, tablet, or computer.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔄</div>
+            <h3>Regular Updates</h3>
+            <p>New notes and question papers are added regularly.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎯</div>
+            <h3>Exam Focused</h3>
+            <p>Important questions and revision materials for exams.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🛡️</div>
+            <h3>Reliable Resources</h3>
+            <p>Organized and easy-to-understand learning materials.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="categories">
+
+    <h2>🎓 Explore by Semester</h2>
+
+    <p class="section-subtitle">
+        Select your semester to access notes and study materials.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">1️⃣</div>
+            <h3>Semester 1</h3>
+            <p>Computer Fundamentals, C Programming, Digital Logic</p>
+
+            <a href="semesters/semester1.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">2️⃣</div>
+            <h3>Semester 2</h3>
+            <p>Data Structure, OOP, Mathematics II</p>
+
+            <a href="semesters/semester2.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">3️⃣</div>
+            <h3>Semester 3</h3>
+            <p>DBMS, Java, Computer Architecture</p>
+
+            <a href="semesters/semester3.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">4️⃣</div>
+            <h3>Semester 4</h3>
+            <p>Operating System, AI, Web Technology</p>
+
+            <a href="semesters/semester4.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">5️⃣</div>
+            <h3>Semester 5</h3>
+            <p>Python, Networking, SAD</p>
+
+            <a href="semesters/semester5.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">6️⃣</div>
+            <h3>Semester 6</h3>
+            <p>Cloud Computing, Mobile App Development</p>
+
+            <a href="semesters/semester6.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">7️⃣</div>
+            <h3>Semester 7</h3>
+            <p>Cyber Security, Project Management</p>
+
+            <a href="semesters/semester7.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="icon">8️⃣</div>
+            <h3>Semester 8</h3>
+            <p>Project Work, Internship</p>
+
+            <a href="semesters/semester8.html">
+                <button>Open Semester</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Call to Action -->
+
+<section class="cta">
+
+    <h2>🎓 Ready to Start Learning?</h2>
+
+    <p>
+        Explore semester-wise notes, previous question papers,
+        and important study resources for your BCA journey.
+    </p>
+
+    <div class="cta-buttons">
+
+        <a href="notes.html">
+            <button>📚 Explore Notes</button>
+        </a>
+
+        <a href="question-papers.html">
+            <button>📝 Question Papers</button>
+        </a>
+
+    </div>
+
+</section>
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Study Hub | Built for Students</p>
+
+    </footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
